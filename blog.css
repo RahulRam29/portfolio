@@ -1,0 +1,39 @@
+.portfolio-section {
+    background-color: blueviolet;
+    padding: 100px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.spacer {
+    height: 1000px;
+}
+
+body {
+    padding-top: 100px;
+}
+
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.portfolio-item img:hover {
+    opacity: 0.8;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
